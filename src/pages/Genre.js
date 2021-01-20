@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { connect } from "react-redux";
 
-import getGenres from "../redux/reducer/genres";
+import { getGenres } from "../redux/reducer/genres";
 
 function Genre() {
   const [genres, setGenres] = useState([]);

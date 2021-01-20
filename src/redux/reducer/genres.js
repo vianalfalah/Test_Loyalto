@@ -4,7 +4,7 @@ const initialState = {
   error: false,
 };
 
-const getGenres = (state = initialState, action) => {
+export const getGenres = (state = initialState, action) => {
   switch (action.type) {
     case "GET_ALL_GENRES_PENDING":
       return {
@@ -29,5 +29,3 @@ const getGenres = (state = initialState, action) => {
       return state;
   }
 };
-
-export default getGenres;
