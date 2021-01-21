@@ -56,14 +56,14 @@
   align-items: center;
   height: 50px;
   padding: 32px 82px;
-  
+
 
 }
 
 .header h1 {
   position: absolute;
   width: 200px;
-  height: 50px;
+  top: 0px;
   left: 100px;
 
 }
@@ -72,7 +72,7 @@
 
   width: 100px;
   height: 30px;
-  
+
   align-items: center;
   margin: 15px;
   font-family: Poppins;
@@ -92,7 +92,7 @@
   color: white;
   background: #613d2b;
   border-radius: 5px;
-   
+
 }
 
 .table {
@@ -113,6 +113,14 @@
 
 .table tr td {
   padding: 12px;
+}
+
+.overview {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  justify-content: left;
+  text-align: left;
 }
 
 .btn {
