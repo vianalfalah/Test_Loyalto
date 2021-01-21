@@ -4,14 +4,15 @@ import Landing from "./pages/Landing";
 import Genre from "./pages/Genre";
 import Movies from "./pages/Movies";
 import DetailMovies from "./pages/DetailMovies";
+
 function App() {
   return (
     <div className="App">
       <Router>
-        <Route path="/" component={Landing} />
-        <Route path="/genre" component={Genre} />
-        <Route path="/movies" component={Movies} />
-        <Route path="/detail" component={DetailMovies} />
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/genre" component={Genre} />
+        <Route exact path="/movies" component={Movies} />
+        <Route exact path="/detail/:id" component={DetailMovies} />
       </Router>
     </div>
   );

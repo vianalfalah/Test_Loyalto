@@ -53,7 +53,7 @@ const reducer = (state = initialState, action) => {
     case "GET_ALL_MOVIES":
       return {
         ...state,
-        listMovies: action.data.results,
+        listMovies: action.data,
       };
     case "GET_DETAIL_MOVIE":
       return {

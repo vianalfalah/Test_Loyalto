@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { API } from "../config/api";
 import { useDispatch, useSelector } from "react-redux";
+import Navbar from "../component/Navbar";
 
 function Genre() {
   const data = useSelector((state) => state.listGenres);
@@ -25,6 +26,9 @@ function Genre() {
 
   return (
     <>
+      <div className="container">
+        <Navbar />
+      </div>
       <table className="table">
         <tr>
           <th>No</th>

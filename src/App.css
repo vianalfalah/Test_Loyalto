@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -102,6 +102,11 @@
   margin-bottom: 50px;
 }
 
+.table img {
+  width: 200px;
+
+}
+
 .table tr th {
   padding: 12px;
   background-color: #e5e5e5;
@@ -127,4 +132,84 @@
   margin-left: 5px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.backdrop {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.backdrop img {
+  width: 1071px;
+  height: 538px;
+}
+
+.poster {
+
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+
+}
+
+.poster img {
+
+  width: 200px;
+  height: 300px;
+
+}
+
+.wrap1 {
+  background-color: #282c34;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.desc {
+  /* height: 200px; */
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.desc2 {
+  height: 200px;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 80px;
+  color: white;
+}
+
+.desc2 a {
+  color: brown;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  padding: 32px 82px;
+}
+
+.button .btn {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.desc3 {
+  height: 200px;
+  width: 300px;
+  margin-left: 70px;
+  margin-top: 80px;
+  color: white;
+}
+
+.desc2 a {
+  color: brown;
 }
